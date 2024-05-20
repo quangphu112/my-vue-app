@@ -9,8 +9,6 @@ declare module 'vue' {
   export interface GlobalComponents {
     CommonTable: typeof import('./src/components/CommonTable.vue')['default']
     Dialog: typeof import('./src/components/Dialog.vue')['default']
-    Fillter: typeof import('./src/components/Fillter.vue')['default']
     FillterCondition: typeof import('./src/components/FillterCondition.vue')['default']
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
   }
 }
